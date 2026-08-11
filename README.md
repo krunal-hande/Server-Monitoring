@@ -52,7 +52,7 @@ server-performance-stats/
 
 ```bash
 # Clone
-git clone https://github.com/your-org/server-performance-stats.git
+git clone https://git@github.com:krunal-hande/Server-Monitoring.git
 cd server-performance-stats
 
 # Make executable
