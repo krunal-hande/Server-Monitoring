@@ -1,0 +1,18 @@
+server-performance-stats/
+├── .github/
+│   └── workflows/
+│       └── ci.yml              ← GitHub Actions: ShellCheck lint + smoke tests (Linux & macOS)
+├── config/
+│   └── monitor.conf            ← Default thresholds & settings (sourceable config)
+├── docs/
+│   ├── USAGE.md                ← Full CLI reference with examples
+│   └── JSON_SCHEMA.md          ← Every JSON field documented + jq examples
+├── logs/
+│   └── .gitkeep                ← Tracks empty dir in git, runtime logs go here
+├── scripts/
+│   └── server_monitor.sh       ← Main script (the one we built + fixed)
+├── tests/
+│   └── test_monitor.sh         ← 17 smoke tests (standalone bash or bats-core)
+├── .gitignore                  ← Ignores logs/*.log, logs/*.json, .DS_Store, editor files
+├── LICENSE                     ← MIT
+└── README.md                   ← Badges, quick start, options table, JSON sample, cron/systemd
